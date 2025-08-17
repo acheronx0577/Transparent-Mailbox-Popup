@@ -1,0 +1,47 @@
+/**
+* @name Transparent Popup
+ * @author AcheronX.
+ * @description Make popup transparent
+ * @source https://github.com/acheronx0577/Transparent-Code-Block/blob/main/Transparent%20Code%20Block.css
+ * @version 0.0.1
+ * @website https://github.com/acheronx0577
+ */
+
+
+/* 🎨 Modal background with glass effect */
+.modal_ca6911 {
+    background: rgba(88, 85, 138, 0.192) !important;
+    backdrop-filter: blur(10px) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* 🚀 Header styling */
+.modal_ca6911 .header__49fc1 {
+    background: transparent !important;
+    border-bottom: none !important;
+}
+
+/* 🌈 Transparent content */
+.modal_ca6911 .content__49fc1 {
+    background: transparent !important;
+}
+
+/* 🖱️ Custom scrollbar */
+.modal_ca6911 .scrollerBase_d125d2::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal_ca6911 .scrollerBase_d125d2::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+.modal_ca6911 .scrollerBase_d125d2::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* 🔗 Link styling */
+.anchor_edefb8 {
+    color: #00b0f4 !important;
+}
